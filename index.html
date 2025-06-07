@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilosofíaViva - Explorando la sabiduría a través de los libros</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FilosofíaViva</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Historia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-image-space">
+                    📚
+                </div>
+                <h1>Explorando la sabiduría a través de los libros</h1>
+                <p>Descubre las obras que han moldeado el pensamiento humano a través de los siglos</p>
+                <a href="#productos" class="cta-button">Ver Catálogo</a>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="productos" class="productos">
+            <div class="container">
+                <h2 class="section-title">Catálogo de Libros de Filosofía</h2>
+                
+                <!-- Category Filter -->
+                <div class="category-filter">
+                    <button class="filter-button active" data-category="todos">Todos</button>
+                    <button class="filter-button" data-category="metafisica">Metafísica</button>
+                    <button class="filter-button" data-category="etica">Ética</button>
+                    <button class="filter-button" data-category="epistemologia">Epistemología</button>
+                    <button class="filter-button" data-category="logica">Lógica</button>
+                    <button class="filter-button" data-category="politica">Filosofía Política</button>
+                    <button class="filter-button" data-category="existencialismo">Existencialismo</button>
+                </div>
+
+                <div class="productos-grid">
+                    <!-- Metafísica -->
+                    <div class="producto-card" data-category="metafisica">
+                        <div class="producto-image">
+                            <span class="category-badge">Metafísica</span>
+                            🏛️
+                        </div>
+                        <h3>Metafísica</h3>
+                        <div class="author">Aristóteles</div>
+                        <p>Una de las obras fundamentales de la filosofía occidental que explora la naturaleza de la realidad, el ser y la existencia.</p>
+                        <div class="price">$29.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="producto-card" data-category="metafisica">
+                        <div class="producto-image">
+                            <span class="category-badge">Metafísica</span>
+                            ⚛️
+                        </div>
+                        <h3>Ser y Tiempo</h3>
+                        <div class="author">Martin Heidegger</div>
+                        <p>Obra fundamental del siglo XX que redefine la pregunta por el ser y la temporalidad humana.</p>
+                        <div class="price">$34.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                    </div>
+
+                    <!-- Ética -->
+                    <div class="producto-card" data-category="etica">
+                        <div class="producto-image">
+                            <span class="category-badge">Ética</span>
+                            ⚖️
+                        </div>
+                        <h3>Ética a Nicómaco</h3>
+                        <div class="author">Aristóteles</div>
+                        <p>Tratado clásico sobre la ética y la vida virtuosa, explorando el concepto de eudaimonia y la felicidad.</p>
+                        <div class="price">$26.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="producto-card" data-category="etica">
+                        <div class="producto-image">
+                            <span class="category-badge">Ética</span>
+                            📜
+                        </div>
+                        <h3>Fundamentación de la Metafísica de las Costumbres</h3>
+                        <div class="author">Immanuel Kant</div>
+                        <p>Obra esencial donde Kant desarrolla su ética deontológica y el famoso imperativo categórico.</p>
+                        <div class="price">$24.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                    </div>
+
+                    <!-- Epistemología -->
+                    <div class="producto-card" data-category="epistemologia">
+                        <div class="producto-image">
+                            <span class="category-badge">Epistemología</span>
+                            🧠
+                        </div>
+                        <h3>Crítica de la Razón Pura</h3>
+                        <div class="author">Immanuel Kant</div>
+                        <p>Revolucionaria obra que examina los límites y posibilidades del conocimiento humano.</p>
+                        <div class="price">$32.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="producto-card" data-category="epistemologia">
+                        <div class="producto-image">
+                            <span class="category-badge">Epistemología</span>
+                            🔍
+                        </div>
+                        <h3>Meditaciones Metafísicas</h3>
+                        <div class="author">René Descartes</div>
+                        <p>Fundamento del racionalismo moderno, donde Descartes establece la duda metódica y el cogito.</p>
+                        <div class="price">$22.99</div>
+                        <button class="product-button">Agregar al Carrito</button>
+                         </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="nosotros" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Sobre Nosotros</h2>
+                        <p>Somos una tienda especializada en ropa deportiva de alta calidad. En SportStyle nos dedicamos a proporcionar la mejor selección de ropa deportiva para todos los niveles de actividad física.</p>
+                        <p>Nuestra misión es ayudar a los atletas y entusiastas del deporte a alcanzar sus objetivos con comodidad y estilo.</p>
+                        <ul class="features">
+                            <li>Productos de alta calidad</li>
+                            <li>Envío rápido</li>
+                            <li>Atención personalizada</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        🏃‍♂️
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div>
+                                <strong>Dirección:</strong><br>
+                                Calle Principal #123<br>
+                                Ciudad
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div>
+                                <strong>Teléfono:</strong><br>
+                                (123) 456-7890
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <div>
+                                <strong>Email:</strong><br>
+                                info@sportstyle.com
+                            </div>
+                        </div>
+                        <div class="map">Mapa Interactivo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SportStyle</h3>
+                    <p>Tu tienda de confianza para ropa deportiva</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Email: info@sportstyle.com</li>
+                        <li>Teléfono: (123) 456-7890</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos en redes sociales</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SportStyle. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
